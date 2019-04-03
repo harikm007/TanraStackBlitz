@@ -1,0 +1,21 @@
+
+.nav-highlight{
+  color: red;
+}
+
+.icon-bar {
+  background-color:#FF0000 !important;
+}
+
+.nav-class{
+  background: rgba(255, 255, 255, 0.2);
+  position: fixed;
+  z-index:10;
+  width: 100%;
+}
+
+#navbar{
+    transition: 0.4s;
+}
+
+

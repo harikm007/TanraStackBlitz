@@ -1,0 +1,11 @@
+<div class="homeclass">
+    <owl-carousel #owlElement 
+    [options]="{items: 1, dots: false, navigation: false, loop:true, 
+            autoplay:true, autoplayTimeout:3000, animateOut: 'fadeOut'}"
+    [items]="images"
+    [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="item" *ngFor="let image of images;let i = index">
+        <img [src]="image" class="slideimage">
+    </div>
+    </owl-carousel>
+</div>
